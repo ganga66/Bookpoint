@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+
+}
+h1{
+    border: 4px solid black;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+.main:hover{
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    text-align: justify;
+    height: 80px;
+    position: sticky;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+
+}
+#home{
+    content: '';
+    position: absolute;
+    background-image: url('https://img.freepik.com/premium-photo/d-shopping-online-concept-with-shopping-cart-bag-balloon-credit-card-mobile-phone-3d-rendering_265427-252.jpg');
+    width:100% ;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.8;
+}
+.main{
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5px;
+    border: 4px solid black;
+    text-align: center;
+    text-decoration: solid;
+    font-size: large;
+} 
+.main2{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+input{
+    border: 3px solid black;
+    padding: 4px;
+}
+
+.row{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   z-index: -1;
+   margin-top: 200px;
+   justify-content: space-evenly;
+   padding-bottom: 10px;
+   
+}
+.col{
+    width: 250px;
+    height: 500px;
+    background-color: black;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    border: 3px solid rgb(237, 237, 32);
+
+}
+img{
+    width: 160px;
+    border: 3px solid rgb(241, 245, 2);
+    border-radius: 20%;
+
+}
+p{
+    margin-top: 15px;
+    color: aliceblue;
+    text-align: justify;
+    padding: 10px;
+    text-align: center;
+
+ }
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    padding: 20px;
+}
+h2:hover{
+    background-color: white;
+    color: black;
+}
+.main2:hover{
+    background-color: aliceblue;
+}
+img:hover{
+    background-color: aliceblue;
+}
